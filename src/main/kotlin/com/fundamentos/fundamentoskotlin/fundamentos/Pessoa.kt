@@ -6,7 +6,6 @@ package com.fundamentos.fundamentoskotlin.fundamentos
 // Por exemplo Uma classe pessoa possui nome, idade.
 // O que é um construtor? é o que utilizamos para criar uma classe especifica
 class Pessoa (var nome: String, var idade: Int) {
-
     override fun toString(): String {
         return "A pessoa $nome tem $idade anos."
     }
