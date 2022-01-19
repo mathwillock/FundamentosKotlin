@@ -12,7 +12,7 @@ fun main() {
 
     name = null
 
-    println(name?.length?.toShort())
+    println(message = name?.length?.toShort())
 
     when {
         comecaComM(name) -> println(name)
